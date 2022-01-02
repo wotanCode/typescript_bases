@@ -1,7 +1,11 @@
-const msg = 'hola mundo';
-console.log(msg)
-//tsc app = transpila el codigo de ts a javascript
+(() => {
+  const a: number = 10;
+  let b: number = 10;
+  console.log(a);
+}) ()
 
-//tsc --init = Esto inicia el tsconfig para configuraciones propias de typescript
 
-//tsc -w O tsc --watch = Iniciammos el modo observador
+
+function sayHello ( msg:string ) {
+  console.log(msg)
+}
