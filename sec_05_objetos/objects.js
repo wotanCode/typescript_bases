@@ -10,4 +10,5 @@
         age: 60,
         powers: ['Super Fuerza'],
     };
+    console.log(flash);
 })();

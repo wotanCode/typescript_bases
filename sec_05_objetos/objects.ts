@@ -12,4 +12,6 @@
     powers: ['Super Fuerza'],
   }
 
+  console.log(flash);
+
 })()
