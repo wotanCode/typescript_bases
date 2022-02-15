@@ -1,5 +1,4 @@
 "use strict";
-// Objetos
 const batimovil = {
     carroceria: "Negra",
     modelo: "6x6",
@@ -29,8 +28,6 @@ const villanos = [{
         edad: undefined,
         mutante: true
     }];
-// Multiples tipos
-// cree dos tipos, uno para charles y otro para apocalipsis
 const charles = {
     poder: "psiquico",
     estatura: 1.78
@@ -42,4 +39,6 @@ const apocalipsis = {
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique;
 mystique = charles;
+console.log(mystique);
 mystique = apocalipsis;
+console.log(mystique);
