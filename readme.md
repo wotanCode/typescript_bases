@@ -16,3 +16,15 @@ Esto sirve para al usar console.log() me muestra donde se da este pero en el arc
 
 #### removeComments
 Elimina comentarios al hacer la traspilación de ts a js
+
+#### exclude y include
+Sirve para agregar o quitar archivos/carpetas de las interacciones con typescript. No estan en el tscofig por defecto, hay que agregarlos. Aunque no esten por defecto se excluye de manera automatica el node_modules. La sintaxis es:
+
+```js
+"exclude": [
+  "node_modules"
+],
+"include: [
+  "nombrecarpeta/*.js"
+],
+```
