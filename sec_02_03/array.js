@@ -6,3 +6,4 @@
     const villan = ['Omega Rojo', 'Dormamu', 'Duende verde'];
     villan.forEach(v => console.log(v.toUpperCase()));
 })();
+//# sourceMappingURL=array.js.map

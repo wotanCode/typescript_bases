@@ -11,3 +11,4 @@
         powers: ['Super velocidad']
     };
 })();
+//# sourceMappingURL=objects_04.js.map

@@ -6,3 +6,4 @@
     error("auxilio!");
     console.log("hola mundo");
 })();
+//# sourceMappingURL=never.js.map

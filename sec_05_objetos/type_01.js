@@ -13,3 +13,4 @@
     console.log(flash);
     console.log(superman);
 })();
+//# sourceMappingURL=type_01.js.map

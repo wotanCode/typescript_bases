@@ -7,3 +7,4 @@
 function sayHello(msg) {
     console.log(msg);
 }
+//# sourceMappingURL=app00.js.map

@@ -16,3 +16,4 @@
     };
     console.log(flash.getName);
 })();
+//# sourceMappingURL=objetcs_03.js.map
