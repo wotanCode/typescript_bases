@@ -102,6 +102,6 @@
     "node_modules",
   ],
   "include": [
-    "sec_06_ES6",
+    "sec_07_classes",
   ],
 }
