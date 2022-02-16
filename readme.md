@@ -28,3 +28,8 @@ Sirve para agregar o quitar archivos/carpetas de las interacciones con typescrip
   "nombrecarpeta/*.js"
 ],
 ```
+#### OutFile
+Sirve para juntar todo en un solo archivo js. usualmente requiere un cambio en module: amd
+```js
+"outFile": "./main.js",
+```
