@@ -8,7 +8,6 @@
     console.log(flash);
     flash = {
         name: 'Clark',
-        // age: 24,
         powers: ['Super velocidad', 'Viajar en el tiempo'],
         getName() {
             return this.name;

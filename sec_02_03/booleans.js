@@ -2,7 +2,7 @@
 (() => {
     let isSuperman = true;
     let isBatman = false;
-    console.log({ isBatman }); //asi mostramos que tipo de variable es mas su valor
+    console.log({ isBatman });
     isSuperman = true && false;
     isSuperman = (isBatman) ? true : false;
     console.log({ isSuperman });

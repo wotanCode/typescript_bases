@@ -8,11 +8,7 @@
     console.log(flash);
     flash = {
         name: 'Clark',
-        // age: 24,
         powers: ['Super velocidad', 'Viajar en el tiempo']
-        // getNombre(){
-        //   return this.name
-        // }
     };
 })();
 //# sourceMappingURL=objects_02.js.map

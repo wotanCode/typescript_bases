@@ -5,9 +5,9 @@
     let power;
     avenger = 'Dr Strange';
     console.log(avenger.charAt(0));
-    console.log(avenger.charAt(0)); //CASTEO
+    console.log(avenger.charAt(0));
     avenger = 150.123;
-    console.log(avenger.toFixed(2)); //casteo
+    console.log(avenger.toFixed(2));
     console.log(exists);
     console.log(power);
 })();
