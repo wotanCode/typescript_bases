@@ -102,6 +102,6 @@
     "node_modules",
   ],
   "include": [
-    "sec_07_classes",
+    "sec_08_interfaces",
   ],
 }
