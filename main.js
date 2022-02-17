@@ -11,4 +11,24 @@
         powers: [1]
     };
 })();
+(() => {
+    const client1 = {
+        name: 'Pedro',
+        age: 25,
+        address: {
+            id: 125,
+            zip: 'KY2 SUD',
+            city: 'Ottwa',
+        }
+    };
+    const client2 = {
+        name: 'Melissa',
+        age: 30,
+        address: {
+            id: 125,
+            zip: 'KY2 SUD1',
+            city: 'Ottwa',
+        }
+    };
+})();
 //# sourceMappingURL=main.js.map
