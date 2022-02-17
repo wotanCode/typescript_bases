@@ -12,6 +12,22 @@
     };
 })();
 (() => {
+    ;
+    ;
+    class Mutant {
+        constructor() {
+            this.age = 12;
+            this.name = "pedrito";
+            this.realName = "wotan";
+        }
+        mutantPower(id) {
+            return this.name + ' ' + this.realName;
+        }
+        ;
+    }
+    ;
+})();
+(() => {
     const client1 = {
         name: 'Pedro',
         age: 25,
