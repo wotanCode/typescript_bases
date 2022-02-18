@@ -79,4 +79,40 @@
         return 10;
     };
 })();
+const conducirBatimovil = (auto) => {
+    auto.encender = true;
+    auto.velocidadMaxima = 100;
+    auto.acelear();
+};
+const batimovil = {
+    encender: false,
+    velocidadMaxima: 0,
+    acelear() {
+        console.log("...... gogogo!!!");
+    }
+};
+const guason = {
+    reir: true,
+    comer: true,
+    llorar: false
+};
+const reir = (guason) => {
+    if (guason.reir) {
+        console.log("JAJAJAJA");
+    }
+};
+const ciudadGotica = (ciudadanos) => {
+    return ciudadanos.length;
+};
+class Persona {
+    constructor() {
+        this.nombre = "Pedro";
+        this.edad = 30;
+        this.sexo = "Si gracias";
+        this.estadoCivil = "es complicado";
+    }
+    imprimirBio() {
+        return this.nombre;
+    }
+}
 //# sourceMappingURL=main.js.map
