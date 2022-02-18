@@ -1,9 +1,9 @@
-interface PowerI {
+export interface PowerI {
   id:number;
   desc: string;
 }
 
-export const powers: PowerI[] = [
+const powers: PowerI[] = [
   {
     id: 1,
     desc: "Money",
