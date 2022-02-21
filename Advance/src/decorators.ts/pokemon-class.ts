@@ -10,8 +10,13 @@ const printToConsonleConditional = (print: boolean = false):Function =>{
   }
 }
 
-@printToConsonleConditional( true )
+const bloquearPrototipo = function( constructor: Function ) {
+  Object.seal( constructor )
+  Object.seal( constructor.prototype )
+}
 
+@bloquearPrototipo
+@printToConsonleConditional( true )
 
 export class Pokemon {
 

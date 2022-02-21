@@ -7,4 +7,6 @@ import { Pokemon } from './decorators.ts/pokemon-class';
 
 const charmander = new Pokemon('Charmander');
 
+(Pokemon.prototype as any).customName = 'pikachu';
+
 console.log(charmander);
