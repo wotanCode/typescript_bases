@@ -2,8 +2,9 @@
 //import { Hero as Superhero } from './classes/hero'
 //import * as HeroClasses from './classes/hero'
 //import { powers } from './data/powers'
-import { HeroI } from './interfaces/hero';
-import { VillanI } from './interfaces/villan';
+// import { HeroI } from './interfaces/hero';
+// import { VillanI } from './interfaces/villan';
+import { VillanI, HeroI } from './interfaces';
 import { printObject, genericFunction, genericFunctionArrow } from './generics/generics';
 //const Hero = 123;
 // const ironman = new Hero('Ironman',1,40);
