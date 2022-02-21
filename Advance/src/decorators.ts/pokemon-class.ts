@@ -1,8 +1,18 @@
 function printToConsole( constructor: Function ) {
-  console.log(constructor)
+  console.log( constructor )
 }
 
-@printToConsole
+const printToConsonleConditional = (print: boolean = false):Function =>{
+  if (print){
+    return printToConsole;
+  } else {
+    return () => {};
+  }
+}
+
+@printToConsonleConditional( true )
+
+
 export class Pokemon {
 
   public publicApi: string = 'https://pokeapi.co'
