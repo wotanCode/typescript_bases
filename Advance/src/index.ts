@@ -9,4 +9,7 @@ const charmander = new Pokemon('Charmander');
 
 // (Pokemon.prototype as any).customName = 'pikachu';
 
-charmander.savePokemonToDB(500);
+// charmander.savePokemonToDB(500);
+
+charmander.publicApi = `google.com`
+console.log( charmander);

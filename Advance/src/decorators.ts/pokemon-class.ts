@@ -30,11 +30,35 @@ function CheckValidPokemonId(){
   }
 }
 
+function readonly (isWritable: boolean = true):Function {
+  return function (target: any, propertykey: string,) {
+    //console.log({target,propertykey,descriptor})
+    const descriptor:PropertyDescriptor = {
+      get(){
+        console.log(this, 'getter')
+        return 'pedrito'
+      },
+      set(this, val){
+        //console.log(this, val)
+        Object.defineProperty(this, propertykey, {
+          value: val,
+          writable: !isWritable,
+          enumerable: false,
+
+        })
+      },
+    }
+    return descriptor;
+  }
+}
+
 
 @bloquearPrototipo
 @printToConsonleConditional( true )
 
 export class Pokemon {
+
+  @readonly(false)
 
   public publicApi: string = 'https://pokeapi.co'
 
